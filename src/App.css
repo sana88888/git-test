@@ -1,0 +1,50 @@
+.bouton {
+  background-color: #546755;
+  border: none;
+  color: blanc;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.bouton:hover {
+  background-color: #77712d;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.profil-container {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.profil-img {
+  max-width: 100%;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.profil-details {
+  text-align: center;
+}
+
+.profil-details h2 {
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+.profil-details p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #555;
+}
